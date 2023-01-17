@@ -7,10 +7,10 @@ import { Selector, t } from "testcafe";
 
 class loginPage {
     constructor(){
-        this.user = Selector('#user-name')
-        this.pass = Selector('input[data-test="password"]')
-        this.button = Selector('input[name="login-button"]')
-        this.title = Selector('h3')
+        this.user = Selector('#email')
+        this.pass = Selector('#password')
+        this.button = Selector('button.Login_botonIniciarSesion__s6FjA')
+        this.title = Selector('div.Login_errorColor__s-yPS')
     }
 
 
