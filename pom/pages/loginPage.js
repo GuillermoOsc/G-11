@@ -9,7 +9,7 @@ class loginPage {
     constructor(){
         this.user = Selector('#email')
         this.pass = Selector('#password')
-        this.button = Selector('button.Login_botonIniciarSesion__s6FjA')
+        this.button = Selector('.Register_botonRegistrarse__7Leqa')
         this.title = Selector('div.Login_errorColor__s-yPS')
     }
 
